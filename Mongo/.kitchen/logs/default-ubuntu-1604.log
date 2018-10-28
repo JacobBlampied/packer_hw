@@ -1,0 +1,232 @@
+I, [2018-10-26T17:08:35.529872 #23753]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2018-10-26T17:08:35.530579 #23753]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2018-10-26T17:08:40.106456 #23753]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2018-10-26T17:08:41.524022 #23753]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2018-10-26T17:08:41.762557 #23753]  INFO -- default-ubuntu-1604: ==> default: [vagrant-hostsupdater] Removing hosts
+I, [2018-10-26T17:08:41.813139 #23753]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2018-10-26T17:08:41.814467 #23753]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m6.28s).
+I, [2018-10-26T17:08:41.816980 #23753]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2018-10-26T17:08:41.817206 #23753]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2018-10-26T17:08:42.795528 #23753]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-10-26T17:08:42.946142 #23753]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'ubuntu/xenial64'...
+I, [2018-10-26T17:08:53.227953 #23753]  INFO -- default-ubuntu-1604: [KProgress: 10%[KProgress: 60%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-10-26T17:08:53.396289 #23753]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'ubuntu/xenial64' is up to date...
+I, [2018-10-26T17:08:56.225992 #23753]  INFO -- default-ubuntu-1604: ==> default: A newer version of the box 'ubuntu/xenial64' for provider 'virtualbox' is
+I, [2018-10-26T17:08:56.226056 #23753]  INFO -- default-ubuntu-1604: ==> default: available! You currently have version '20181012.0.0'. The latest is version
+I, [2018-10-26T17:08:56.226084 #23753]  INFO -- default-ubuntu-1604: ==> default: '20181026.0.0'. Run `vagrant box update` to update.
+I, [2018-10-26T17:08:57.233554 #23753]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: default-ubuntu-1604_default_1540570137189_91687
+I, [2018-10-26T17:08:57.852402 #23753]  INFO -- default-ubuntu-1604: ==> default: Fixed port collision for 22 => 2222. Now on port 2201.
+I, [2018-10-26T17:08:57.912377 #23753]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2018-10-26T17:08:57.976519 #23753]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2018-10-26T17:08:57.976997 #23753]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2018-10-26T17:08:58.047304 #23753]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2018-10-26T17:08:58.173591 #23753]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2201 (host) (adapter 1)
+I, [2018-10-26T17:08:58.363926 #23753]  INFO -- default-ubuntu-1604: ==> default: Running 'pre-boot' VM customizations...
+I, [2018-10-26T17:08:58.497746 #23753]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2018-10-26T17:08:58.886431 #23753]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-10-26T17:08:59.530388 #23753]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2201
+I, [2018-10-26T17:08:59.531179 #23753]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2018-10-26T17:08:59.531395 #23753]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2018-10-26T17:09:31.245796 #23753]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-10-26T17:09:31.245992 #23753]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-10-26T17:09:31.246057 #23753]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2018-10-26T17:09:32.268867 #23753]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-10-26T17:09:32.269014 #23753]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2018-10-26T17:09:32.342055 #23753]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2018-10-26T17:09:32.416754 #23753]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-10-26T17:09:32.997278 #23753]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2018-10-26T17:09:32.997823 #23753]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2018-10-26T17:09:33.046004 #23753]  INFO -- default-ubuntu-1604:     default: The guest additions on this VM do not match the installed version of
+I, [2018-10-26T17:09:33.046143 #23753]  INFO -- default-ubuntu-1604:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-10-26T17:09:33.046186 #23753]  INFO -- default-ubuntu-1604:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-10-26T17:09:33.046221 #23753]  INFO -- default-ubuntu-1604:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-10-26T17:09:33.046353 #23753]  INFO -- default-ubuntu-1604:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-10-26T17:09:33.046432 #23753]  INFO -- default-ubuntu-1604:     default: your host and reload your VM.
+I, [2018-10-26T17:09:33.046489 #23753]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-10-26T17:09:33.046517 #23753]  INFO -- default-ubuntu-1604:     default: Guest Additions Version: 5.1.38
+I, [2018-10-26T17:09:33.046544 #23753]  INFO -- default-ubuntu-1604:     default: VirtualBox Version: 5.2
+I, [2018-10-26T17:09:33.047105 #23753]  INFO -- default-ubuntu-1604: ==> default: [vagrant-hostsupdater] Checking for host entries
+I, [2018-10-26T17:09:33.047170 #23753]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2018-10-26T17:09:33.471742 #23753]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-10-26T17:09:35.430400 #23753]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2018-10-26T17:09:35.431947 #23753]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2018-10-26T17:09:35.437494 #23753]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (0m53.42s).
+I, [2018-10-26T17:09:35.439867 #23753]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2018-10-26T17:09:35.440659 #23753]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2018-10-26T17:09:35.440812 #23753]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2018-10-26T17:09:35.441394 #23753]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 7.0.4...
+I, [2018-10-26T17:09:41.317373 #23753]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2018-10-26T17:09:41.319342 #23753]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2018-10-26T17:09:41.321849 #23753]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2018-10-26T17:09:41.346921 #23753]  INFO -- default-ubuntu-1604: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-10-26T17:09:41.348332 #23753]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-10-26T17:09:41.349108 #23753]  INFO -- default-ubuntu-1604: Trying wget...
+I, [2018-10-26T17:09:41.448248 #23753]  INFO -- default-ubuntu-1604: Download complete.
+I, [2018-10-26T17:09:41.465027 #23753]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2018-10-26T17:09:41.465086 #23753]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
+I, [2018-10-26T17:09:41.465120 #23753]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2018-10-26T17:09:41.465152 #23753]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1672/metadata.txt
+I, [2018-10-26T17:09:41.465663 #23753]  INFO -- default-ubuntu-1604: trying wget...
+I, [2018-10-26T17:09:41.577517 #23753]  INFO -- default-ubuntu-1604: sha1	bde0f07bbe17492ab56e2afa3794e8f4ac6f5f8b
+I, [2018-10-26T17:09:41.577583 #23753]  INFO -- default-ubuntu-1604: sha256	81dc8634609493a8e9c9dbcb027855027812c902db95e1884b18fe368acbd047
+I, [2018-10-26T17:09:41.577607 #23753]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/14.6.47/ubuntu/16.04/chef_14.6.47-1_amd64.deb
+I, [2018-10-26T17:09:41.577804 #23753]  INFO -- default-ubuntu-1604: version	14.6.47
+I, [2018-10-26T17:09:41.581033 #23753]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2018-10-26T17:09:41.597310 #23753]  INFO -- default-ubuntu-1604: downloading https://packages.chef.io/files/stable/chef/14.6.47/ubuntu/16.04/chef_14.6.47-1_amd64.deb
+I, [2018-10-26T17:09:41.597427 #23753]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1672/chef_14.6.47-1_amd64.deb
+I, [2018-10-26T17:09:41.597718 #23753]  INFO -- default-ubuntu-1604: trying wget...
+I, [2018-10-26T17:09:50.057963 #23753]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2018-10-26T17:09:50.259417 #23753]  INFO -- default-ubuntu-1604: 
+I, [2018-10-26T17:09:50.259498 #23753]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-10-26T17:09:50.259546 #23753]  INFO -- default-ubuntu-1604: 
+I, [2018-10-26T17:09:50.259578 #23753]  INFO -- default-ubuntu-1604: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-10-26T17:09:50.259644 #23753]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-10-26T17:09:50.259695 #23753]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
+I, [2018-10-26T17:09:50.259749 #23753]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-10-26T17:09:50.259772 #23753]  INFO -- default-ubuntu-1604: CI/CD environments.
+I, [2018-10-26T17:09:50.259798 #23753]  INFO -- default-ubuntu-1604: 
+I, [2018-10-26T17:09:50.259851 #23753]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-10-26T17:09:50.259890 #23753]  INFO -- default-ubuntu-1604: 
+I, [2018-10-26T17:09:50.259931 #23753]  INFO -- default-ubuntu-1604: Installing chef 
+I, [2018-10-26T17:09:50.259948 #23753]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2018-10-26T17:09:50.335618 #23753]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2018-10-26T17:09:52.049480 #23753]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54150 files and directories currently installed.)
+I, [2018-10-26T17:09:52.052040 #23753]  INFO -- default-ubuntu-1604: Preparing to unpack .../chef_14.6.47-1_amd64.deb ...
+I, [2018-10-26T17:09:52.054325 #23753]  INFO -- default-ubuntu-1604: Unpacking chef (14.6.47-1) ...
+I, [2018-10-26T17:09:56.541840 #23753]  INFO -- default-ubuntu-1604: Setting up chef (14.6.47-1) ...
+I, [2018-10-26T17:09:56.632971 #23753]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
+I, [2018-10-26T17:09:56.674845 #23753]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2018-10-26T17:09:58.170346 #23753]  INFO -- default-ubuntu-1604: Starting Chef Client, version 14.6.47
+I, [2018-10-26T17:09:59.500787 #23753]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2018-10-26T17:09:59.544402 #23753]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["Mongo::default"]
+I, [2018-10-26T17:09:59.557683 #23753]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2018-10-26T17:09:59.585292 #23753]  INFO -- default-ubuntu-1604:   - Mongo (0.1.0)
+I, [2018-10-26T17:09:59.586230 #23753]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2018-10-26T17:09:59.589108 #23753]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2018-10-26T17:09:59.597847 #23753]  INFO -- default-ubuntu-1604: Converging 8 resources
+I, [2018-10-26T17:09:59.598488 #23753]  INFO -- default-ubuntu-1604: Recipe: Mongo::default
+I, [2018-10-26T17:09:59.600542 #23753]  INFO -- default-ubuntu-1604:   * apt_update[update] action update
+I, [2018-10-26T17:09:59.600832 #23753]  INFO -- default-ubuntu-1604:     - force update new lists of packages
+I, [2018-10-26T17:09:59.603232 #23753]  INFO -- default-ubuntu-1604:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2018-10-26T17:09:59.605747 #23753]  INFO -- default-ubuntu-1604:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2018-10-26T17:09:59.607713 #23753]  INFO -- default-ubuntu-1604:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2018-10-26T17:10:12.344144 #23753]  INFO -- default-ubuntu-1604:     * execute[apt-get -q update] action run
+I, [2018-10-26T17:10:12.346881 #23753]  INFO -- default-ubuntu-1604:       - execute ["apt-get", "-q", "update"]
+I, [2018-10-26T17:10:12.347160 #23753]  INFO -- default-ubuntu-1604:   
+I, [2018-10-26T17:10:12.489197 #23753]  INFO -- default-ubuntu-1604:   * apt_repository[mongodb-org] action add
+I, [2018-10-26T17:10:12.903081 #23753]  INFO -- default-ubuntu-1604:     * execute[install-key EA312927] action run
+I, [2018-10-26T17:10:12.903649 #23753]  INFO -- default-ubuntu-1604:       - execute apt-key adv --recv --keyserver hkp://keyserver.ubuntu.com:80 EA312927
+I, [2018-10-26T17:10:12.968832 #23753]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run
+I, [2018-10-26T17:10:12.969233 #23753]  INFO -- default-ubuntu-1604:       - execute ["apt-cache", "gencaches"]
+I, [2018-10-26T17:10:12.970064 #23753]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action nothing (skipped due to action :nothing)
+I, [2018-10-26T17:10:12.970969 #23753]  INFO -- default-ubuntu-1604:     * apt_update[mongodb-org] action nothing (skipped due to action :nothing)
+I, [2018-10-26T17:10:12.974000 #23753]  INFO -- default-ubuntu-1604:     * file[/etc/apt/sources.list.d/mongodb-org.list] action create
+I, [2018-10-26T17:10:12.975739 #23753]  INFO -- default-ubuntu-1604:       - create new file /etc/apt/sources.list.d/mongodb-org.list
+I, [2018-10-26T17:10:12.975799 #23753]  INFO -- default-ubuntu-1604:       - update content in file /etc/apt/sources.list.d/mongodb-org.list from none to 974c9d
+I, [2018-10-26T17:10:12.975823 #23753]  INFO -- default-ubuntu-1604:       --- /etc/apt/sources.list.d/mongodb-org.list	2018-10-26 16:10:11.625303698 +0000
+I, [2018-10-26T17:10:12.975842 #23753]  INFO -- default-ubuntu-1604:       +++ /etc/apt/sources.list.d/.chef-mongodb-org20181026-1754-quqz7z.list	2018-10-26 16:10:11.625303698 +0000
+I, [2018-10-26T17:10:12.976139 #23753]  INFO -- default-ubuntu-1604:       @@ -1 +1,2 @@
+I, [2018-10-26T17:10:12.978476 #23753]  INFO -- default-ubuntu-1604:       +deb      "http://repo.mongodb.org/apt/ubuntu" xenial/mongodb-org/3.2 multiverse
+I, [2018-10-26T17:10:12.978540 #23753]  INFO -- default-ubuntu-1604:       - change mode from '' to '0644'
+I, [2018-10-26T17:10:12.978565 #23753]  INFO -- default-ubuntu-1604:       - change owner from '' to 'root'
+I, [2018-10-26T17:10:12.979616 #23753]  INFO -- default-ubuntu-1604:       - change group from '' to 'root'
+I, [2018-10-26T17:10:14.351124 #23753]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run
+I, [2018-10-26T17:10:14.351241 #23753]  INFO -- default-ubuntu-1604:       - execute ["apt-cache", "gencaches"]
+I, [2018-10-26T17:10:14.354298 #23753]  INFO -- default-ubuntu-1604:     * apt_update[mongodb-org] action update
+I, [2018-10-26T17:10:14.354769 #23753]  INFO -- default-ubuntu-1604:       - force update new lists of packages
+I, [2018-10-26T17:10:14.357627 #23753]  INFO -- default-ubuntu-1604:       * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2018-10-26T17:10:14.361796 #23753]  INFO -- default-ubuntu-1604:       * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2018-10-26T17:10:14.365775 #23753]  INFO -- default-ubuntu-1604:       * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2018-10-26T17:10:16.043983 #23753]  INFO -- default-ubuntu-1604:       * execute[apt-get -q update] action run
+I, [2018-10-26T17:10:16.044230 #23753]  INFO -- default-ubuntu-1604:  - execute ["apt-get", "-q", "update"]
+I, [2018-10-26T17:10:16.044899 #23753]  INFO -- default-ubuntu-1604:     
+I, [2018-10-26T17:10:16.045365 #23753]  INFO -- default-ubuntu-1604:   
+I, [2018-10-26T17:10:42.501084 #23753]  INFO -- default-ubuntu-1604:   * apt_package[mongodb-org] action upgrade
+I, [2018-10-26T17:10:42.504618 #23753]  INFO -- default-ubuntu-1604:     - upgrade(allow_downgrade) package mongodb-org from uninstalled to 3.2.21
+I, [2018-10-26T17:10:42.734346 #23753]  INFO -- default-ubuntu-1604:   * service[mongod] action enable
+I, [2018-10-26T17:10:42.736617 #23753]  INFO -- default-ubuntu-1604:     - enable service service[mongod]
+I, [2018-10-26T17:10:43.180341 #23753]  INFO -- default-ubuntu-1604:   * service[mongod] action start
+I, [2018-10-26T17:10:43.180773 #23753]  INFO -- default-ubuntu-1604:     - start service service[mongod]
+I, [2018-10-26T17:10:43.185098 #23753]  INFO -- default-ubuntu-1604:   * link[/etc/mongod/mongod.conf] action delete (up to date)
+I, [2018-10-26T17:10:43.185157 #23753]  INFO -- default-ubuntu-1604:   * link[/etc/systemd/system/mongod.service] action delete (up to date)
+I, [2018-10-26T17:10:43.190516 #23753]  INFO -- default-ubuntu-1604:   * template[/etc/mongod.conf] action create
+I, [2018-10-26T17:10:43.191774 #23753]  INFO -- default-ubuntu-1604:     - update content in file /etc/mongod.conf from 956fef to 33581e
+I, [2018-10-26T17:10:43.191935 #23753]  INFO -- default-ubuntu-1604:     --- /etc/mongod.conf	2018-09-05 06:08:21.000000000 +0000
+I, [2018-10-26T17:10:43.191990 #23753]  INFO -- default-ubuntu-1604:     +++ /etc/.chef-mongod20181026-1754-1tg5whw.conf	2018-10-26 16:10:41.852409698 +0000
+I, [2018-10-26T17:10:43.192060 #23753]  INFO -- default-ubuntu-1604:     @@ -1,27 +1,27 @@
+I, [2018-10-26T17:10:43.193116 #23753]  INFO -- default-ubuntu-1604:      # mongod.conf
+I, [2018-10-26T17:10:43.193233 #23753]  INFO -- default-ubuntu-1604:      
+I, [2018-10-26T17:10:43.193833 #23753]  INFO -- default-ubuntu-1604:      # for documentation of all options, see:
+I, [2018-10-26T17:10:43.194394 #23753]  INFO -- default-ubuntu-1604:     -#   http://docs.mongodb.org/manual/reference/configuration-options/
+I, [2018-10-26T17:10:43.194472 #23753]  INFO -- default-ubuntu-1604:     +#http://docs.mongodb.org/manual/reference/configuration-options/
+I, [2018-10-26T17:10:43.195147 #23753]  INFO -- default-ubuntu-1604:      
+I, [2018-10-26T17:10:43.195250 #23753]  INFO -- default-ubuntu-1604:      # Where and how to store data.
+I, [2018-10-26T17:10:43.195573 #23753]  INFO -- default-ubuntu-1604:      storage:
+I, [2018-10-26T17:10:43.196017 #23753]  INFO -- default-ubuntu-1604:     -  dbPath: /var/lib/mongodb
+I, [2018-10-26T17:10:43.196242 #23753]  INFO -- default-ubuntu-1604:     -  journal:
+I, [2018-10-26T17:10:43.196415 #23753]  INFO -- default-ubuntu-1604:     -    enabled: true
+I, [2018-10-26T17:10:43.196453 #23753]  INFO -- default-ubuntu-1604:     +   dbPath: /var/lib/mongodb
+I, [2018-10-26T17:10:43.197010 #23753]  INFO -- default-ubuntu-1604:     +   journal:
+I, [2018-10-26T17:10:43.197257 #23753]  INFO -- default-ubuntu-1604:     +     enabled: true
+I, [2018-10-26T17:10:43.197788 #23753]  INFO -- default-ubuntu-1604:      #  engine:
+I, [2018-10-26T17:10:43.198293 #23753]  INFO -- default-ubuntu-1604:      #  mmapv1:
+I, [2018-10-26T17:10:43.198350 #23753]  INFO -- default-ubuntu-1604:      #  wiredTiger:
+I, [2018-10-26T17:10:43.198400 #23753]  INFO -- default-ubuntu-1604:     -
+I, [2018-10-26T17:10:43.198770 #23753]  INFO -- default-ubuntu-1604:     + 
+I, [2018-10-26T17:10:43.199003 #23753]  INFO -- default-ubuntu-1604:      # where to write logging data.
+I, [2018-10-26T17:10:43.199440 #23753]  INFO -- default-ubuntu-1604:      systemLog:
+I, [2018-10-26T17:10:43.199705 #23753]  INFO -- default-ubuntu-1604:     -  destination: file
+I, [2018-10-26T17:10:43.200063 #23753]  INFO -- default-ubuntu-1604:     -  logAppend: true
+I, [2018-10-26T17:10:43.200260 #23753]  INFO -- default-ubuntu-1604:     -  path: /var/log/mongodb/mongod.log
+I, [2018-10-26T17:10:43.200798 #23753]  INFO -- default-ubuntu-1604:     + destination: file
+I, [2018-10-26T17:10:43.200860 #23753]  INFO -- default-ubuntu-1604:     + logAppend: true
+I, [2018-10-26T17:10:43.201075 #23753]  INFO -- default-ubuntu-1604:     + path: /var/log/mongodb/mongod.log
+I, [2018-10-26T17:10:43.201343 #23753]  INFO -- default-ubuntu-1604:      
+I, [2018-10-26T17:10:43.201740 #23753]  INFO -- default-ubuntu-1604:      # network interfaces
+I, [2018-10-26T17:10:43.202019 #23753]  INFO -- default-ubuntu-1604:      net:
+I, [2018-10-26T17:10:43.202341 #23753]  INFO -- default-ubuntu-1604:     -  port: 27017
+I, [2018-10-26T17:10:43.202397 #23753]  INFO -- default-ubuntu-1604:     -  bindIp: 127.0.0.1
+I, [2018-10-26T17:10:43.202418 #23753]  INFO -- default-ubuntu-1604:     + port: 27017
+I, [2018-10-26T17:10:43.202821 #23753]  INFO -- default-ubuntu-1604:     + bindIp: 0.0.0.0
+I, [2018-10-26T17:10:43.203090 #23753]  INFO -- default-ubuntu-1604:      
+I, [2018-10-26T17:10:43.203530 #23753]  INFO -- default-ubuntu-1604:      
+I, [2018-10-26T17:10:43.203966 #23753]  INFO -- default-ubuntu-1604:      #processManagement:
+I, [2018-10-26T17:10:43.204667 #23753]  INFO -- default-ubuntu-1604:   * template[/etc/systemd/system/mongod.service] action create
+I, [2018-10-26T17:10:43.205472 #23753]  INFO -- default-ubuntu-1604:     - create new file /etc/systemd/system/mongod.service
+I, [2018-10-26T17:10:43.205551 #23753]  INFO -- default-ubuntu-1604:     - update content in file /etc/systemd/system/mongod.service from none to 063a06
+I, [2018-10-26T17:10:43.206114 #23753]  INFO -- default-ubuntu-1604:     --- /etc/systemd/system/mongod.service	2018-10-26 16:10:41.868417698 +0000
+I, [2018-10-26T17:10:43.206468 #23753]  INFO -- default-ubuntu-1604:     +++ /etc/systemd/system/.chef-mongod20181026-1754-1t6dppp.service	2018-10-26 16:10:41.864415698 +0000
+I, [2018-10-26T17:10:43.207089 #23753]  INFO -- default-ubuntu-1604:     @@ -1 +1,14 @@
+I, [2018-10-26T17:10:43.207640 #23753]  INFO -- default-ubuntu-1604:     +[Unit]
+I, [2018-10-26T17:10:43.208256 #23753]  INFO -- default-ubuntu-1604:     +Description=High-performance, schema-free document-oriented database
+I, [2018-10-26T17:10:43.208678 #23753]  INFO -- default-ubuntu-1604:     +After=network.target
+I, [2018-10-26T17:10:43.209103 #23753]  INFO -- default-ubuntu-1604:     +Documentation=https://docs.mongodb.org/manual
+I, [2018-10-26T17:10:43.209755 #23753]  INFO -- default-ubuntu-1604:     +
+I, [2018-10-26T17:10:43.209834 #23753]  INFO -- default-ubuntu-1604:     +[Service]
+I, [2018-10-26T17:10:43.209868 #23753]  INFO -- default-ubuntu-1604:     +User=mongodb
+I, [2018-10-26T17:10:43.210300 #23753]  INFO -- default-ubuntu-1604:     +Group=mongodb
+I, [2018-10-26T17:10:43.210389 #23753]  INFO -- default-ubuntu-1604:     +ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
+I, [2018-10-26T17:10:43.211399 #23753]  INFO -- default-ubuntu-1604:     +
+I, [2018-10-26T17:10:43.211904 #23753]  INFO -- default-ubuntu-1604:     +[Install]
+I, [2018-10-26T17:10:43.212221 #23753]  INFO -- default-ubuntu-1604:     +WantedBy=multi-user.target
+I, [2018-10-26T17:10:43.212713 #23753]  INFO -- default-ubuntu-1604:     + 
+I, [2018-10-26T17:10:43.394597 #23753]  INFO -- default-ubuntu-1604:   * service[mongod] action restart
+I, [2018-10-26T17:10:43.394700 #23753]  INFO -- default-ubuntu-1604:     - restart service service[mongod]
+I, [2018-10-26T17:10:43.445045 #23753]  INFO -- default-ubuntu-1604: 
+I, [2018-10-26T17:10:43.445109 #23753]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2018-10-26T17:10:43.445476 #23753]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2018-10-26T17:10:43.446093 #23753]  INFO -- default-ubuntu-1604: Chef Client finished, 15/25 resources updated in 45 seconds
+I, [2018-10-26T17:10:43.462257 #23753]  INFO -- default-ubuntu-1604: Downloading files from <default-ubuntu-1604>
+I, [2018-10-26T17:10:43.470606 #23753]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (1m8.03s).
+I, [2018-10-26T17:10:43.473327 #23753]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2018-10-26T17:10:43.488599 #23753]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2018-10-26T17:10:43.488810 #23753]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2018-10-26T17:10:44.004677 #23753]  INFO -- default-ubuntu-1604: Loaded tests from {:path=>".Users.tech-a11.Desktop.Sparta.Core.DevOps.Chef.node_mongo_CB.Mongo.test.integration.default"} 
+I, [2018-10-26T17:10:44.432477 #23753]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m0.94s).
+I, [2018-10-26T17:10:44.434887 #23753]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2018-10-26T17:10:49.380829 #23753]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2018-10-26T17:10:50.796102 #23753]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2018-10-26T17:10:51.012955 #23753]  INFO -- default-ubuntu-1604: ==> default: [vagrant-hostsupdater] Removing hosts
+I, [2018-10-26T17:10:51.067918 #23753]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2018-10-26T17:10:51.068949 #23753]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m6.63s).
+I, [2018-10-26T17:10:51.070721 #23753]  INFO -- default-ubuntu-1604: Finished testing <default-ubuntu-1604> (2m15.35s).
